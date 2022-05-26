@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "67d45d2af3795ca9",
+    "id": "a81f056232c9af95",
     "type": "split",
     "children": [
       {
-        "id": "848a7d415121ad2b",
+        "id": "17bb43a43e0a1157",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DE-101 Modules/Module01/DE - 101 Module01.md",
+            "file": "DE-101 Modules/Module01/DE - 101 Lab 1.1/build_steps_dashboard.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "df72a14c527a9ec0",
+    "id": "18435f56e5d075fb",
     "type": "split",
     "children": [
       {
-        "id": "e8ec166c8463c656",
+        "id": "d09bcb2237ac03db",
         "type": "tabs",
         "children": [
           {
-            "id": "55a60e955119e24a",
+            "id": "7cd6d74623077cf0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "6fdffe1add74ab4e",
+            "id": "833928af3ffdd333",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,20 +56,20 @@
     "width": 300
   },
   "right": {
-    "id": "7d08edfb9ea4f59b",
+    "id": "72730c162fef1c2f",
     "type": "split",
     "children": [
       {
-        "id": "0aa194b0f574ecc8",
+        "id": "bcca9f600b6b7025",
         "type": "tabs",
         "children": [
           {
-            "id": "ec9f658cb2464b68",
+            "id": "3f6bda872c562c18",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DE-101 Modules/Module01/DE - 101 Module01.md",
+                "file": "DE-101 Modules/Module01/DE - 101 Lab 1.1/build_steps_dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "848a7d415121ad2b",
+  "active": "17bb43a43e0a1157",
   "lastOpenFiles": [
-    "DE-101 Modules/Module01/DE - 101 Module01.md",
-    "Users/alex/code/data-engineering/notes/1.6.md",
-    "Users/alex/code/data-engineering/notes/1.5.md",
-    "Users/alex/code/data-engineering/notes/1.4.md",
-    "Users/alex/code/data-engineering/notes/1.3.md",
-    "Users/alex/code/data-engineering/notes/1.2.md",
-    "Users/alex/code/data-engineering/notes/1.1.md",
-    "DE - 101 Guide.md",
+    "DE-101 Modules/Module01/DE - 101 Lab 1.1/build_steps_dashboard.md",
     "DE-101 Modules/Module01/DE - 101 Lab 1.1/readme.md",
-    "DE-101 Modules/Module03/DE - 101 Lab 3.1/3_11_PowerBI/readme.md"
+    "DE - 101 Guide.md",
+    "DE-101 Modules/Module01/DE - 101 Module01.md",
+    "DE-101 Modules/Module01/DE - 101 Lab 1.1/Excel Dashboard sample.pdf",
+    "Users/alex/code/data-engineering/notes/1.7.md",
+    "readme.md",
+    "img/interview_how_to_meme.jpeg",
+    "img/slack add channel.png",
+    "img.md"
   ]
 }
