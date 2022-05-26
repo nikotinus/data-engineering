@@ -1,6 +1,6 @@
 # Модуль 12: Data Engineering best practices and materials
 
-[Обратно в содержание курса :leftwards_arrow_with_hook:](https://github.com/Data-Learn/data-engineering/blob/master/DE%20-%20101%20Guide.md) 
+[Обратно в содержание курса :leftwards_arrow_with_hook:](https://github.com/nikotinus/data-engineering/blob/master/DE%20-%20101%20Guide.md) 
 
 
 

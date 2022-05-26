@@ -1,6 +1,6 @@
 # Модуль 6:  Аналитические Хранилища Данных
 
-[Обратно в содержание курса :leftwards_arrow_with_hook:](https://github.com/Data-Learn/data-engineering/blob/master/DE%20-%20101%20Guide.md) 
+[Обратно в содержание курса :leftwards_arrow_with_hook:](https://github.com/nikotinus/data-engineering/blob/master/DE%20-%20101%20Guide.md) 
 
 В 6 модуле мы узнаем про аналитические и облачные хранилища данных которые используются в индустрии. Крупные компания Amazon, Microsoft, Airbnb, и многие другие из списка SP500 используют одну или сразу несколько решений для аналитических хранилищ данных - Amazon Redshift, Microsoft Synapse, Google BigQuery или Snowflake. Но кроме облачных хранилищ есть еще много on-premise Teradata, Greenplum, Vertica, Exasol и тп. 
 
@@ -72,7 +72,7 @@
 
 **Видео лекция - практика** - [Что Такое Аналитическое Хранилище Данных? - практика](https://youtu.be/JuQCUGUWqgU?t=2766). 
 
-[Ссылка на лабораторную работу к модулю 6.2](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module06/DE%20-%20101%20Labs/Teradata/Teradata%20Lab.md)
+[Ссылка на лабораторную работу к модулю 6.2](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module06/DE%20-%20101%20Labs/Teradata/Teradata%20Lab.md)
 
 ### Опциональное задание:
 Вы можете использовать Pentaho DI, чтобы добавить ETL компомент в ваше аналитическое решение. Попробуйте реализовать задание из модуля 4 (любое или все).
@@ -126,8 +126,8 @@
 - Загрузить данные с использование COPY и манифеста
 - Оптимизировать таблицы и запросы с использование функционала Redshift - Distribution, Sort, Compression и Encoding
 
-1. __Лабораторна работа 1__ - генерация данных утилитой TPC в облаке AWS на виртуальной машине EC2 - [Создание выборки данных](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module06/DE%20-%20101%20Labs/AWS%20-%20Redshift/Generating_Datasets.md)
-2. **Лабораторная работа 2** - [создание и настройка кластера, загрузка данных и оптимизаци](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module06/DE%20-%20101%20Labs/AWS%20-%20Redshift/Redshift_lab.md).
+1. __Лабораторна работа 1__ - генерация данных утилитой TPC в облаке AWS на виртуальной машине EC2 - [Создание выборки данных](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module06/DE%20-%20101%20Labs/AWS%20-%20Redshift/Generating_Datasets.md)
+2. **Лабораторная работа 2** - [создание и настройка кластера, загрузка данных и оптимизаци](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module06/DE%20-%20101%20Labs/AWS%20-%20Redshift/Redshift_lab.md).
 
 >Автор лабораторных работ Сергей Сволодарский, контакт в телеграмм @erfolg5862.
 
@@ -185,13 +185,13 @@
 
 ### Лабораторная Работа
 В качестве домашнего задания вам нужно будет сделать одно-два из 4х заданий на выбор:
-1. Сделать лабораторную работу по Synapse. Сергей Сволодарский приготовил для вас детальную инструкцию - [Azure Synapse Analyics Workshop](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module06/DE%20-%20101%20Labs/Azure%20-%20Synapse%20Analytics/Azure-Synapse.MD).
+1. Сделать лабораторную работу по Synapse. Сергей Сволодарский приготовил для вас детальную инструкцию - [Azure Synapse Analyics Workshop](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module06/DE%20-%20101%20Labs/Azure%20-%20Synapse%20Analytics/Azure-Synapse.MD).
 2. Попробовать сделать лаборатные работы Rock Your Data, на которые вы на примере разберете особенности дизайна таблиц.
 	- [Лабораторные работы и файлы SQL из RYD labs](https://github.com/Rock-Your-Data/ryd-workshops/tree/master/Azure%20Cloud%20DW%20in%20a%20Day/Labs)
 	- [Лабораторная работа по Azure SQL DW в формате PDF] (https://github.com/Rock-Your-Data/ryd-workshops/blob/master/Azure%20Cloud%20DW%20in%20a%20Day/Labs/Cloud%20DW%20in%20a%20Day%20_%20Labs.pdf)
 4. Взять данные Superstore из модуля 1 и загрузить их в Azure Dedicated SQL pool (Azure DW) с использованием Azure Data Factory или Pentaho DI. Дальше по примеру модуля 4 вы можете создать таблицу фактов и таблицы измерения (схема звезда) и подключить BI инструмент - Power BI, Tableau или любой другой. Такое вот end-to-end решение.
-	- [Данне Superstore из модуля 1]( https://github.com/Data-Learn/data-engineering/tree/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1)
-	- [Модуль 4 про Fact и Dimensions таблицы](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module04/DE%20-%20101%20Module04.md#%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-44-2-etl-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B-%D0%B8-%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D1%81-etl-%D0%BD%D0%B0-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B5-pentaho-data-integration)
+	- [Данне Superstore из модуля 1]( https://github.com/nikotinus/data-engineering/tree/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1)
+	- [Модуль 4 про Fact и Dimensions таблицы](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module04/DE%20-%20101%20Module04.md#%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-44-2-etl-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B-%D0%B8-%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D1%81-etl-%D0%BD%D0%B0-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B5-pentaho-data-integration)
 5. Сделать [Azure Synapse Tutorials](https://docs.microsoft.com/en-us/azure/synapse-analytics/get-started)
 
 ## Модуль 6.5 Основы Snowflake
@@ -239,7 +239,7 @@ Snowflake одноверменно SMP и MPP, если вы смотрели д
 ### Лабораторная Работа
 
 В качестве лабораторной работы вы можете:
-- Выполнить оффициальные [tutorial Snowflake](https://www.snowflake.com/snowflake-essentials-training/), но уже переведнный Сергеем для вас - [Snowflake Workshop](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module06/DE%20-%20101%20Labs/Snowflake/snowflake-lab.md)
+- Выполнить оффициальные [tutorial Snowflake](https://www.snowflake.com/snowflake-essentials-training/), но уже переведнный Сергеем для вас - [Snowflake Workshop](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module06/DE%20-%20101%20Labs/Snowflake/snowflake-lab.md)
 - Сделать близкий к реальному кейс с SalesForce, Fivetran, Snowflake, Tableau - [Zero To Snowflake](https://github.com/DecisiveData/ZeroToSnowflake)
 - Зарегистрироваться и пройти бесплатные курсы [Snowflake Data Academy](https://www.snowflake.com/data-cloud-academy/)
 
@@ -336,11 +336,11 @@ ETL(ELT) инструменты нам нужны, чтобы наполнять
 
 По окончанию модуля 6, вы можете расшарить значок `06 | Cloud DW` в социальных сетях и рассказать о своих достижениях. 
 
-![img](https://github.com/Data-Learn/data-engineering/blob/master/img/de101-module06.png)
+![img](https://github.com/nikotinus/data-engineering/blob/master/img/de101-module06.png)
 
 А также добавить в Linkedin сертификат:
 
-![img](https://github.com/Data-Learn/data-engineering/blob/master/img/linkedin06cloud.PNG.jpg)
+![img](https://github.com/nikotinus/data-engineering/blob/master/img/linkedin06cloud.PNG.jpg)
 Другие доступные сертификаты можете посмотреть в этом [linkedin профайле](https://www.linkedin.com/in/lana-naumova-8a1b78171/).
 
 

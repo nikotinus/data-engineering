@@ -1,6 +1,6 @@
 # Модуль 7: Знакомство с Apache Spark.
 
-[Обратно в содержание курса :leftwards_arrow_with_hook:](https://github.com/Data-Learn/data-engineering/blob/master/DE%20-%20101%20Guide.md) 
+[Обратно в содержание курса :leftwards_arrow_with_hook:](https://github.com/nikotinus/data-engineering/blob/master/DE%20-%20101%20Guide.md) 
 
 В 7м модуле мы познакомимся с open source решением  для аналитики и инжиниринга данных - Apache Spark и его коммерческой версией Databricks. Вы узнаете примеры использования в индустрии и популярные use cases. Я расскажу о своем опыте с Apache Spark в Амазоне и Майкрософт и научу вас работать с данными с помощью PySpark и Spark SQL, покажу вам лучшие книги и материалы по Spark. 
 

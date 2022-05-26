@@ -178,7 +178,7 @@ MindMap - интеллектуальная карта, инструмент ви
 
 Вы можете использовать web версию `github`. Рассматривайте этот инструмент как google `drive` или `dropbox`, где вы можете хранить свои файлы (заслуги и проекты) в интернете. 
 
-Задание по лабораторной работе - [Домашнее задание для модуля 1](https://github.com/Data-Learn/data-engineering/tree/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1).
+Задание по лабораторной работе - [Домашнее задание для модуля 1](https://github.com/nikotinus/data-engineering/tree/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1).
 
 Если **вы не знаете как оформлять задание**, то вот [видео как сохранять домашнее задание в гит](https://youtu.be/USDNzpTMNSs) и создать GitHub аккаунт. **Это очень важный навык!**
 
@@ -187,7 +187,7 @@ MindMap - интеллектуальная карта, инструмент ви
 
 По окончанию модуля 1, вы можете расшарить значок `01 | Analytics` в социальных сетях и рассказать о своих достижениях. 
 
-![img](https://github.com/Data-Learn/data-engineering/blob/master/img/de101-module01.png)
+![img](https://github.com/nikotinus/data-engineering/blob/master/img/de101-module01.png)
 
 **PS Если материал оказался полезным, вы можете поддержать авторов через**
 Условная цена одного модуля 500р ;)

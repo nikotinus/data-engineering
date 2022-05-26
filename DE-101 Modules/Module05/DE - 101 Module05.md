@@ -1,6 +1,6 @@
 # Модуль 5:  Введение в Облачные Вычисления
 
-[Обратно в содержание курса :leftwards_arrow_with_hook:](https://github.com/Data-Learn/data-engineering/blob/master/DE%20-%20101%20Guide.md) 
+[Обратно в содержание курса :leftwards_arrow_with_hook:](https://github.com/nikotinus/data-engineering/blob/master/DE%20-%20101%20Guide.md) 
 
 В 5 модуле мы узнаем про облачные вычисления, или просто cloud computing. Мы начнем с основ, и поговорим и главных вендорах и их решениях. Я расскажу про свой опыт с облачными решениями и постараюсь вас научить их использовать и дать достаточно знаний, для того, чтобы вы могли понимать, что это такое, и как это используется, а так же применять в работе. Из модуля вы узнаете:
 
@@ -59,7 +59,7 @@
 7. Используя `draw.io` и иконки AWS/Azure, нарисуйте архитектуру решения, на котором будет VPC, Subnet, Internet Gateway, Route Table, Subnet и укажите IP адрес EC2.
 
 ### Лабораторной работе
-[Запуск экземпляра EC2 в частном виртуальном облаке (Virtual Private Cloud - VPC)](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module05/DE%20-%20101%20Labs/AWS%20-%20EC2-in-VPC/EC2%20in%20VPC.MD)
+[Запуск экземпляра EC2 в частном виртуальном облаке (Virtual Private Cloud - VPC)](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module05/DE%20-%20101%20Labs/AWS%20-%20EC2-in-VPC/EC2%20in%20VPC.MD)
 
 ### Опциональное задание:
 Если вы хотите получше разобраться в концепции AWS Virtual Private Cloud, то вам необходимо сделать еще 2 упражнения:
@@ -97,8 +97,8 @@
 
 
 ### Лабораторная Работа
-- [Создаем статичный веб-сайт на Amazon S3](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module05/DE%20-%20101%20Labs/AWS%20-%20Static%20web-site%20using%20S3/Static%20web-site%20using%20S3.md). Автор: Эдгар Лакшин. 
-- [Создание и работа с Azure Blob Storage](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module05/DE%20-%20101%20Labs/Azure%20-%20Create%20and%20Manage%20Azure%20Blob%20Storage/Azure%20Blob%20Storage.MD). Автор Sergii Volodarskyi.  
+- [Создаем статичный веб-сайт на Amazon S3](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module05/DE%20-%20101%20Labs/AWS%20-%20Static%20web-site%20using%20S3/Static%20web-site%20using%20S3.md). Автор: Эдгар Лакшин. 
+- [Создание и работа с Azure Blob Storage](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module05/DE%20-%20101%20Labs/Azure%20-%20Create%20and%20Manage%20Azure%20Blob%20Storage/Azure%20Blob%20Storage.MD). Автор Sergii Volodarskyi.  
 
 Дополнительно вам необходимо:
 - В своем AWS Account создать Billing Alert
@@ -140,7 +140,7 @@
 - Создайте KMS ключ в AWS и примените шифрование для данных в S3
 
 ### Лабораторная Работа
-[Введение в Azure Active Directory](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module05/DE%20-%20101%20Labs/Azure%20-%20Introduction%20to%20Azure%20Active%20Directory/azure-ad-intro.md). Автор Sergii Volodarskyi. 
+[Введение в Azure Active Directory](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module05/DE%20-%20101%20Labs/Azure%20-%20Introduction%20to%20Azure%20Active%20Directory/azure-ad-intro.md). Автор Sergii Volodarskyi. 
 
 Вы также можете использовать похожие сервисы в Azure.
 
@@ -170,7 +170,7 @@
 - [Защита персональных данных в облаке: что нужно знать по 152-ФЗ](https://mcs.mail.ru/blog/zashchita-personalnyh-dannyh-v-oblake-kak-sdelat-vse-po-zakonu)  (Русский)
 
 ### Лабораторная Работа
-[Создаем лямбда функцию в AWS Console](https://github.com/Data-Learn/data-engineering/tree/master/DE-101%20Modules/Module05/DE%20-%20101%20Labs/AWS%20-%20Lambda%20Function%20Using%20the%20AWS%20Console). Автор Alexander Uryumtsev.
+[Создаем лямбда функцию в AWS Console](https://github.com/nikotinus/data-engineering/tree/master/DE-101%20Modules/Module05/DE%20-%20101%20Labs/AWS%20-%20Lambda%20Function%20Using%20the%20AWS%20Console). Автор Alexander Uryumtsev.
 
 ## Модуль 5.6 Архитектура облачных решений
 Прежде чем строить дом, нам нужно нарисовать архитектуру дома и сделать много других подготовительных работ. Тоже самое и в облаке и ИТ решениях. А если мы еще вспомним про принципы Амазон и их подход к созданию новых продуктов - Working Backwards, то самый первый шаг в создании решения мы начнем с потребностей клиента и бизнеса, напишем press releases, ответим на все возможные вопросы в FAQ и создадим visuals, включая диаграмму/архитектуру нашего будущего решения или продукта.
@@ -299,7 +299,7 @@ Python является самым популярным языком прогр�
 ### Workshop
 Вам нужно выполнить все материалы по `AWS Python Workshop`. Можно выбрать один из 2х:
 -[AWS Python Workshop Original](https://learn-to-code.workshop.aws/)
--[Русская версия описания и задания для AWS Python Workshop](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module05/DE%20-%20101%20Labs/AWS%20-%20Python%20Workshop/aws-python-workshop.MD)
+-[Русская версия описания и задания для AWS Python Workshop](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module05/DE%20-%20101%20Labs/AWS%20-%20Python%20Workshop/aws-python-workshop.MD)
 
 ### Дополнительные материалы для изучения
 - [Think Python PDF](https://greenteapress.com/thinkpython/thinkpython.pdf)
@@ -319,11 +319,11 @@ Python является самым популярным языком прогр�
 ## Сертификаты и значки
 По окончанию модуля 5, вы можете расшарить значок `05 | Cloud Computing` в социальных сетях и рассказать о своих достижениях. 
 
-![img](https://github.com/Data-Learn/data-engineering/blob/master/img/de-101-05-cloudcomputing.PNG?raw=true)
+![img](https://github.com/nikotinus/data-engineering/blob/master/img/de-101-05-cloudcomputing.PNG?raw=true)
 
 А также добавить в Linkedin сертификат:
 
-![img](https://github.com/Data-Learn/data-engineering/blob/master/img/linkedin05cloud.PNG?raw=true)
+![img](https://github.com/nikotinus/data-engineering/blob/master/img/linkedin05cloud.PNG?raw=true)
 Все доступные сертификаты можете посмотреть в этом [linkedin профайле](https://www.linkedin.com/in/lana-naumova-8a1b78171/).
 
 ## Поддержка datalearn

@@ -28,7 +28,7 @@ Git - это система контроля версий. Система кон
 Теперь склонируем репозиторий проекта data-engineering.
 0. Регистрируемся на [GitHub](https://github.com/join)
 1. Создаем папку для файлов и открываем её в командной строке.
-2. Скачиваем проект: git clone https://github.com/Data-Learn/data-engineering.git
+2. Скачиваем проект: git clone https://github.com/nikotinus/data-engineering.git
 Рекомендуем не забывать синхронизировать файлы в папке и на GitHub, для этого нужно зайти в папку проекта через командную строку и ввести: git pull 
 
 [Здесь](https://git-scm.com/book/ru/v2) Вы можете найти много информации о Гите.
