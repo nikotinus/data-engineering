@@ -1,4 +1,4 @@
-![cover](img/DataLearnCover.png)[[README|Назад]]
+![cover](img/DataLearnCover.png)[[data-engineering/readme|Назад]]
 
 # Добро пожаловать в Data Learn
 
