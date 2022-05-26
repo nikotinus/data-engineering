@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "67d45d2af3795ca9",
+    "type": "split",
+    "children": [
+      {
+        "id": "848a7d415121ad2b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "DE-101 Modules/Module01/DE - 101 Module01.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "df72a14c527a9ec0",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8ec166c8463c656",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55a60e955119e24a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6fdffe1add74ab4e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7d08edfb9ea4f59b",
+    "type": "split",
+    "children": [
+      {
+        "id": "0aa194b0f574ecc8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec9f658cb2464b68",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DE-101 Modules/Module01/DE - 101 Module01.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "848a7d415121ad2b",
+  "lastOpenFiles": [
+    "DE-101 Modules/Module01/DE - 101 Module01.md",
+    "DE - 101 Guide.md",
+    "readme.md",
+    "Learning resources.md",
+    "Users/alex/code/data-engineering/img/interview how to meme.jpg",
+    "Git-101.md"
+  ]
+}
