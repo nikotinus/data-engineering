@@ -1,4 +1,4 @@
-![cover](https://github.com/Data-Learn/data-engineering/blob/master/img/DataLearnCover.png)
+![cover](img/DataLearnCover.png)
 
 # Getting Started with Analytics and Data Engineering
 
@@ -9,7 +9,7 @@
 - [Введение](https://github.com/Data-Learn/data-engineering/blob/master/DE%20-%20101%20Guide.md#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)
 - [Требования](https://github.com/Data-Learn/data-engineering/blob/master/DE%20-%20101%20Guide.md#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
 - [Подготовка к курсу по Analytics (Data) Engineering](https://github.com/Data-Learn/data-engineering/blob/master/DE%20-%20101%20Guide.md#%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA-%D0%BA%D1%83%D1%80%D1%81%D1%83-%D0%BF%D0%BE-analytics-data-engineering)
-- [Модуль 01 - Роль Аналитики](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Module01.md) ![Ready](https://img.shields.io/badge/-ready-green)
+- [Модуль 01 - Роль Аналитики](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Module01.md) ![Ready](https://img.shields.io/badge/-ready-green)[[DE - 101 Module01]]
 - [Модуль 02 - Базы данных и SQL](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Module02.md) ![Ready](https://img.shields.io/badge/-ready-green) 
 - [Модуль 03 - Business Intelligence](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module03/DE%20-%20101%20Module03.md) ![Ready](https://img.shields.io/badge/-ready-green)
 - [Модуль 04 - Интеграция и трансформация данных - ETL и ELT](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module04/DE%20-%20101%20Module04.md) ![Ready](https://img.shields.io/badge/-ready-green)
@@ -22,7 +22,7 @@
 - [Поддержка Курса](https://github.com/Data-Learn/data-engineering/blob/master/DE%20-%20101%20Guide.md#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%BA%D1%83%D1%80%D1%81%D0%B0)
 
 ## Введение
-Всем привет! Меня зовут [Дмитрий Аношин](https://www.linkedin.com/in/dmitryanoshin/). Спасибо, что нашли время ознакомиться с моим ресурсом. Надеюсь мой опыт поможет вам в достижение ваших целей и вы сможете приобрести новые знания, а также помочь другим.
+Всем привет! Меня зовут [Дмитрий Аношин](https://www.linkedin.com/in/dmitryanoshin/). Спасибо, что нашли время ознакомиться с моим ресурсом. Надеюсь, мой опыт поможет вам в достижении ваших целей, и вы сможете приобрести новые знания, а также помочь другим.
 
 Вот уже 4 года я работаю дата-инженером в Amazon. Когда я в 2016 году начинал работать на позиции data engineer, я особо не вдавался в подробности, что это за роль. Просто искал работу в области данных, желательно Business Intelligence разработчиком. А получилось найти позицию data engineer в Amazon. Частично мне повезло, частично это было заслуженно, так как с 2010 года я непрерывно учился и развивался в области аналитики. 
 
@@ -87,7 +87,7 @@
 
 - **GitHub**. Так как мы используем GitHub как учебник, то обязательно посмотрите, как он работает. Сам по себе Git очень популярен для разработчиков, чтобы хранить код или делать code review (смотреть изменения в коде). Он хорошо работает для SQL, Python, но не работает для приложений вроде Tabelau и PowerBI. Вот [инструкция на русском](http://bi0morph.github.io/hello-world/). GitHub нам пригодится для сохранения результата домашних заданий. Вы можете создать свой аккаунт и папку с названием курса и подпапками с название модулей.
 
-> **_Примечание:_** Специально для вас я записал короткое [видео](https://youtu.be/USDNzpTMNSs), в котором показал все что нужно знать про Git и GitHub для начала. Я показал как нужно использовать GitHub, чтобы сохранять домашнее задание в свой аккаунт и показал примеры использования CLI и GitHub Desktop (для ленивых).
+> **_Примечание:_** Специально для вас я записал короткое [видео](https://youtu.be/USDNzpTMNSs), в котором показал все, что нужно знать про Git и GitHub для начала. Я показал как нужно использовать GitHub, чтобы сохранять домашнее задание в свой аккаунт, и показал примеры использования CLI и GitHub Desktop (для ленивых).
 
 - **Cloud**. Облачные вычисления позволяют нам фокусироваться на решении проблемы и использовать современные сервисы аналитики. Быстро создавать решения для аналитики, масштабировать их. Мы познакомимся с облачными вычислениями на 5-м модуле курса.
 
@@ -101,7 +101,7 @@
 ## Сертификаты и значки по окончанию курса
 Так как курс пока еще в процессе создания, мы не придумали как будет выглядеть финальный сертификат, но постоянно думаем об этом. Помимо основного сертификаты мы добавили концепцию `значков`, которые вы будете получать за выполнение домашнего задания для каждого модуля.
 
-![img](https://github.com/Data-Learn/data-engineering/blob/master/img/DE-101-Badges.png)
+![img|350](img/DE-101-Badges.png)
 
 Курс состоит из 12 модулей и за каждый модуль вы получите значок. Чтобы его получить, вам необходимо показать нам ваш Github, в которому будет создана папка `DE-101`, а внутри будут подпапки:
 - Module01
