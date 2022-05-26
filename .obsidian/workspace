@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DE - 101 Guide.md",
+            "file": "DE-101 Modules/Module01/DE - 101 Module01.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DE - 101 Guide.md",
+                "file": "DE-101 Modules/Module01/DE - 101 Module01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "848a7d415121ad2b",
   "lastOpenFiles": [
+    "DE-101 Modules/Module01/DE - 101 Module01.md",
+    "Users/alex/code/data-engineering/notes/1.6.md",
+    "Users/alex/code/data-engineering/notes/1.5.md",
+    "Users/alex/code/data-engineering/notes/1.4.md",
+    "Users/alex/code/data-engineering/notes/1.3.md",
+    "Users/alex/code/data-engineering/notes/1.2.md",
+    "Users/alex/code/data-engineering/notes/1.1.md",
     "DE - 101 Guide.md",
     "DE-101 Modules/Module01/DE - 101 Lab 1.1/readme.md",
-    "DE-101 Modules/Module03/DE - 101 Lab 3.1/3_11_PowerBI/readme.md",
-    "JH-101/readme.md",
-    "readme.md",
-    "how-to/how_to_amazon_rds.md",
-    "how-to/How to get git.md",
-    "DE-101 Modules/Module12/DE - 101 Module12.md",
-    "DE-101 Modules/Module07/DE - 101 Lab 7.1/DE - 101 Module07.md",
-    "DE-101 Modules/Module06/DE - 101 Module06.md"
+    "DE-101 Modules/Module03/DE - 101 Lab 3.1/3_11_PowerBI/readme.md"
   ]
 }
