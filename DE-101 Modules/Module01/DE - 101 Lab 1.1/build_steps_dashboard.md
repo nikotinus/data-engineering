@@ -3,7 +3,7 @@
 ___
 
 Исходные данные [Скачать файл](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls?raw=true)[Открыть ранее скачанный файл](obsidian://open?vault=data-engineering&file=DE-101%20Modules%2FModule01%2FDE%20-%20101%20Lab%201.1%2FSampleSuperstore.xls)
-<br>
+
 Пример дашборда [Sample - Superstore - Dashboard.xlsx](https://github.com/nikotinus/data-engineering/raw/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore%20-%20Dashboard.xlsx) (версия excel 2016+)
 
 Если у вас есть какие-то предложения, дополнения или исправления, то прошу не стесняйтесь и присылайте свои правки. Давайте объединим усилия и сделаем реально крутой ресурс :)

@@ -18,3 +18,5 @@ If data is not granulated, such as a name or address field being saved as a whol
 
 # Шпаргалки по созданию визуализаций
 ![[выбор визуализации данных.jpg]][[выбор визуализации данных.jpg]]
+# Обработка файла Ексель
+[Файл Ексель с лабораторной](obsidian://open?vault=data-engineering&file=Users%2Falex%2Fcode%2Fdata-engineering%2Flabs%2FModule01%2FSampleSuperstore.xls)
