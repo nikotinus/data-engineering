@@ -1,6 +1,9 @@
 # Пошаговая инструкция по созданию дашборда в Excel 
+[[Users/alex/code/data-engineering/notes/Lab1_1|Заметки]]
+___
 
-Исходные данные [Sample - Superstore.xls](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls?raw=true)<br>
+Исходные данные [Скачать файл](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls?raw=true)[Открыть ранее скачанный файл](obsidian://open?vault=data-engineering&file=DE-101%20Modules%2FModule01%2FDE%20-%20101%20Lab%201.1%2FSampleSuperstore.xls)
+<br>
 Пример дашборда [Sample - Superstore - Dashboard.xlsx](https://github.com/nikotinus/data-engineering/raw/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore%20-%20Dashboard.xlsx) (версия excel 2016+)
 
 Если у вас есть какие-то предложения, дополнения или исправления, то прошу не стесняйтесь и присылайте свои правки. Давайте объединим усилия и сделаем реально крутой ресурс :)
@@ -8,7 +11,7 @@
 **1. Знакомимся с исходными данными**
 
 Скачиваем с репозитория в гитхабе файл [Sample - Superstore.xls](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls?raw=true). В файле видим 3 вкладки: Orders, People, Returns. 
-Со значениями артибутов можно ознакомиться в [описании задания](https://github.com/nikotinus/data-engineering/tree/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1)
+Со значениями артибутов можно ознакомиться в [описании задания](https://github.com/nikotinus/data-engineering/tree/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1)[[DE-101 Modules/Module01/DE - 101 Lab 1.1/readme|перейти в описание локально]]
 
 Сначала оформим данные на листе Orders как таблицу. Благодаря этому Excel будет понимать, что это таблица, и автоматически расширять ее, если мы добавим новый столбец или добавим новые строки с данными. Что очень удобно, если отчет регулярный. Просто добавляем данные за последний период и одним нажатием [обновляем данные в сводных таблицах](https://support.office.com/ru-ru/article/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%B2-%D1%81%D0%B2%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B5-6d24cece-a038-468a-8176-8b6568ca9be2)
 
@@ -16,7 +19,7 @@
 
 ![image](https://i.ibb.co/Km9rKLR/2.png)
 
-Теперь перейдем во вкладку &quot;Конструктор&quot; и зададим таблице имя. К примеру, &quot;Data&quot;, чтобы потом быстро к ней обращаться.
+Теперь перейдем во вкладку `Конструктор` и зададим таблице имя. К примеру, `Data`, чтобы потом быстро к ней обращаться.
 
 ![image](https://i.ibb.co/8m6J7Bm/3.png)
 
@@ -26,9 +29,9 @@
 
 **2. Объединяем данные**
 
-Объединять данные будем во вкладке Orders. Там по умолчанию больше всего данных, есть общие поля с другими таблицами: &quot;Region&quot;, &quot;Order ID&quot;. Ну и самое важное именно здесь у нас [минимальная грануляция](https://youtu.be/3ncC-l-nkOo?t=552) . Значит, мы сможем построить более детализированные отчеты.
+Объединять данные будем во вкладке Orders. Там по умолчанию больше всего данных, есть общие поля с другими таблицами: `Region`, `Order ID`. Ну и самое важное именно здесь у нас [минимальная грануляция](https://youtu.be/3ncC-l-nkOo?t=552) . Значит, мы сможем построить более детализированные отчеты.
 
-Для начала добавим недостающие столбцы &quot;Person&quot; и &quot;Returned&quot;
+Для начала добавим недостающие столбцы `Person` и `Returned`
 
 ![image](https://i.ibb.co/WKd3V7L/4.png)
 
@@ -116,7 +119,7 @@ Excel автоматически сгруппировал нашу дату на
 
 Но мы можем самостоятельно указать нужную нам группировку.
 
-Правой кнопкой мыши вызываем контекстное меню и там выбираем &quot;Группировать&quot; и затем выбираем нужную нам разбивку и диапазон дат.
+Правой кнопкой мыши вызываем контекстное меню и там выбираем `Группировать` и затем выбираем нужную нам разбивку и диапазон дат.
 
 ![image](https://i.ibb.co/RBNZfRD/10.png) ![image](https://i.ibb.co/sJj16Rx/10-2.png)
 
@@ -134,7 +137,7 @@ Excel автоматически сгруппировал нашу дату на
 
 Теперь нам нужно добавить в таблицу метрики.
 
-Перетаскиваем показатели Sales и Profit в область &quot;Значения&quot;
+Перетаскиваем показатели `Sales` и `Profit` в область `Значения`
 
 ![image](https://i.ibb.co/GJxsyN7/13.png)
 
