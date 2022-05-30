@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DE-101 Modules/Module01/DE - 101 Lab 1.1/build_steps_dashboard.md",
+                "file": "DE-101 Modules/Module01/DE - 101 Lab 1.1/readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,12 +111,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c8c8c6716c17cf92",
+  "active": "17bb43a43e0a1157",
   "lastOpenFiles": [
+    "DE-101 Modules/Module01/DE - 101 Lab 1.1/readme.md",
     "DE-101 Modules/Module01/DE - 101 Lab 1.1/build_steps_dashboard.md",
     "Users/alex/code/data-engineering/notes/Lab1_1.md",
     "Users/alex/code/data-engineering/img/выбор визуализации данных.jpg",
-    "DE-101 Modules/Module01/DE - 101 Lab 1.1/readme.md",
     "Users/alex/code/data-engineering/labs/Module01/Без названия.md",
     "DE-101 Modules/Module01/DE - 101 Module01.md",
     "DE-101 Modules%2FModule01%2FDE - 101 Lab 1.1%2FSampleSuperstore.xls.md",
