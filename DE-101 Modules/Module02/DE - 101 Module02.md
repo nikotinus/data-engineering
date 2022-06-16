@@ -1,11 +1,12 @@
 # Модуль 2: Базы данных и SQL
 
 [Обратно в содержание курса :leftwards_arrow_with_hook:](https://github.com/nikotinus/data-engineering/blob/master/DE%20-%20101%20Guide.md)
+[[DE - 101 Guide|Обратно к содержанию учебника DE-101]]
 
 Познакомимся с базами данных, и поймем их преимущество для работы с данными по сравнению с Excel/Google Sheets.
 
 Потренируемся на SQL, установим базу данных и загрузим в нее данные, потом будем использовать Excel/Google Sheets для визуализации данных.
-
+[Весь плейлист](https://www.youtube.com/playlist?list=PLkcP_moW_BpPUS2GIywS5wl0Peb4eJyUQ)
 ## 2.1 Введение
 
 После первого модуля мы разобрались, что такое аналитика, как она работает, как она помогает бизнесу быть успешнее и какие важные навыки необходимы для специалистов, которые работают с данными.
@@ -18,7 +19,7 @@
 
 Дальше мы будем учиться загружать и извлекать данные в БД, использовать язык SQL.
 
-**Видео лекция** - [Введение](https://youtu.be/GFgKx4XodMU)
+**Видео лекция** - [Введение](https://youtu.be/GFgKx4XodMU)![[DATALEARN  DE - 101  МОДУЛЬ 2-1 ВВЕДЕНИЕ.mp4]]
 
 ## 2.2: Что такое базы данных и как они помогают при работе с данными
 
@@ -49,27 +50,97 @@
 
 В практической части мы скачаем и установим PostgreSQL, в следующей главе мы будем к нему подключаться и рассмотрим, какие способы подключения существуют.
 
-**Видео лекция часть 1 - теория** - [Что такое база данных](https://youtu.be/Y8kAHcpImNA).
-
-**Видео лекция часть 2 - практика** [Установка Postgres](https://www.youtube.com/watch?v=Y8kAHcpImNA&t=507s).
-
+**Видео лекция часть 1 - теория** - [Что такое база данных](https://youtu.be/Y8kAHcpImNA). (с начала и до 12:57)
+**Видео лекция часть 2 - практика** [Установка Postgres](https://www.youtube.com/watch?v=Y8kAHcpImNA&t=507s). (с 12:57 и далее)
+![[DATALEARN  DE - 101  МОДУЛЬ 2-2 ЧТО ТАКОЕ БАЗА ДАННЫХ.mp4]]
 ### Дополнительные материалы для изучения
 
-1. [Введение в Базы Данных](https://stepik.org/course/551/) (Русский)
-2. [Хранилище данных vs Озеро Данных](https://habr.com/ru/post/485180/) (Русский)
+1. [Введение в Базы Данных](https://stepik.org/course/551/) (Русский - курс на Stepik)
+2. [Хранилище данных vs Озеро Данных](https://habr.com/ru/post/485180/) (Русский) (Статья на Хабре)
 
 ### Практика
 
-1. Вам необходимо установить Postgres базу данных к себе на компьютер. Вы можете посмотреть [инструкции по установки Postgres](https://github.com/nikotinus/data-engineering/blob/master/how-to/How%20to%20install%20PostgreSQL.md).
+1. Вам необходимо установить Postgres базу данных к себе на компьютер. Вы можете посмотреть [инструкции по установки Postgres](https://github.com/nikotinus/data-engineering/blob/master/how-to/How%20to%20install%20PostgreSQL.md).[[How to install PostgreSQL]]
 
 ## 2.3: Подключение к Базам Данных и SQL
 
 **Видео лекция часть 1 - теория** - [Подключение к БД](https://youtu.be/nJsRJ5SytjI).
+**Видео лекция часть 2 - практика** - [Подключение к БД, загрузка данных в БД, SQL запросы ](https://youtu.be/nJsRJ5SytjI?t=657) (с 10:57 и далее)
+![[DATALEARN  DE - 101  МОДУЛЬ 2-3 Подключение к Базе данных.mp4]]
+### Конспект
+Есть драйвера для подключения к базам данных (odbc и jbdc)
+Три вида SQL:
+- DDL (Data Definition Language)
+	- create table
+	- create table as select
+	- create view
+	- drop table
+	- truncate table
+- DML (Manipulation)
+	- insert into
+	- insert into select
+	- delete
+	- update
+- DQL (Data Query Language) - может относиться к DML
+	- select
+	- from
+	- where
+	- group by
+	- having
+	- order by
+	- join(s)
+	- union
+	- subquery
+	- SQL функции
 
-**Видео лекция часть 2 - практика** - [Подключение к БД, загрузка данных в БД, SQL запросы ](https://youtu.be/nJsRJ5SytjI?t=657)
-
+Хорошая практика - workload решения  - отключать процедуру, если она исполняется более какого-то вемени (30-40 минут, к примеру)
+### Практика
+1. Вам необходимо установить клиент SQL для подключения базы данных. Вы можете посмотреть [инструкции по установки DBeaver](https://github.com/nikotinus/data-engineering/blob/master/how-to/%20How%20to%20install%20DBeaver.md). [[How to install DBeaver]]Так же вы можете использовать любой другой клиент для подключения к вашей БД.
+2. Создайте 3 таблицы и загрузите данные из [Superstore Excel файл](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls) в вашу базу данных. Сохраните в вашем GitHub скрипт загрузки данных и создания таблиц. Вы можете использовать готовый [пример sql файлов](https://github.com/nikotinus/data-engineering/tree/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1).
+	- сформированные файлы:
+	- скрипт создания таблицы "people"![[people.sql]]
+	- скрипт создания таблицы "orders"![[orders.sql]]
+	- скрипт создания таблицы "returns"![[returns.sql]]
+3. Напишите запросы, чтобы ответить на вопросы из [Модуля 01](https://github.com/nikotinus/data-engineering/tree/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1#%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-%D0%B2-excel). Сохраните в вашем GitHub скрипт загрузки данных и создания таблиц.
+	##### Task
+	1.  Overview (обзор ключевых метрик)
+	-   Total Sales = `2 297 200.86` 
+		```sql
+		select 
+			round(sum(o.sales),2) as TotalSales
+		from public.orders o ;
+		-- 2297200.86
+		```
+	-   Total Profit = `286 397.02`
+		```sql
+		select
+			round(sum(o.profit), 2) as TotalProfit
+		from public.orders o
+		--286397.02
+		```
+	-   Profit Ratio = `12.47`
+		```sql
+			select
+				round(sum(o.profit) / sum(o.sales) * 100, 2)
+			from public.orders o 
+			-- 12.47
+		```
+	-   Profit per Order
+	-   Sales per Customer
+	-   Avg. Discount
+	-   Monthly Sales by Segment ( табличка и график)
+	-   Monthly Sales by Product Category (табличка и график)
+	
+	2.  Product Dashboard (Продуктовые метрики)
+	
+	-   Sales by Product Category over time (Продажи по категориям)
+	
+	3.  Customer Analysis
+	
+	-   Sales and Profit by Customer
+	-   Customer Ranking
+-   Sales per region
 ### Дополнительные материалы для изучения
-
 1. [Интерактивный онлайн-курс по SQL СУБД PostgreSQL](https://learndb.ru/) (Русский)
 2. [Интерактивный SQL учебник с упражнениями](https://sql-ex.ru/) (Русский)
 3. [Основные функции SQL](https://khashtamov.com/ru/window-functions-sql/) (Русский)
@@ -79,12 +150,6 @@
 7. [Большой курс SQL и Баз Данных от Stanford](https://www.edx.org/course/databases-5-sql) (English)
 8. [Интерактивный тренажер по SQL](https://stepik.org/course/63054/) (Русский)
 9. [Лучшие вопросы средней сложности по SQL на собеседовании аналитика данных](https://habr.com/ru/company/dcmiran/blog/500360/) (Русский)
-
-### Практика
-
-1. Вам необходимо установить клиент SQL для подключения базы данных. Вы можете посмотреть [инструкции по установки DBeaver](https://github.com/nikotinus/data-engineering/blob/master/how-to/%20How%20to%20install%20DBeaver.md). Так же вы можете использовать любой другой клиент для подключения к ваше БД.
-2. Создайте 3 таблицы и загрузите данные из [Superstore Excel файл](https://github.com/nikotinus/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls) в вашу базу данных. Сохраните в вашем GitHub скрипт загрузки данных и создания таблиц. Вы можете использовать готовый [пример sql файлов](https://github.com/nikotinus/data-engineering/tree/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1).
-3. Напишите запросы, чтобы ответить на вопросы из [Модуля 01](https://github.com/nikotinus/data-engineering/tree/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1#%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-%D0%B2-excel). Сохраните в вашем GitHub скрипт загрузки данных и создания таблиц.
 
 ## 2.4: Модели Данных
 

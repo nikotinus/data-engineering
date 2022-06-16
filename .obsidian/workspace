@@ -4,36 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "17bb43a43e0a1157",
+        "id": "3e291e4fbdaa38cc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DE-101 Modules/Module01/DE - 101 Lab 1.1/readme.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "c8c8c6716c17cf92",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "DE-101 Modules/Module01/DE - 101 Lab 1.1/build_steps_dashboard.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "593bc4bc6637aaaa",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Users/alex/code/data-engineering/notes/Lab1_1.md",
+            "file": "DE-101 Modules/Module02/DE - 101 Module02.md",
             "mode": "source",
             "source": false
           }
@@ -93,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DE-101 Modules/Module01/DE - 101 Lab 1.1/readme.md",
+                "file": "DE-101 Modules/Module02/DE - 101 Module02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "17bb43a43e0a1157",
+  "active": "3e291e4fbdaa38cc",
   "lastOpenFiles": [
+    "DE-101 Modules/Module02/DE - 101 Module02.md",
+    "readme.md",
     "DE-101 Modules/Module01/DE - 101 Lab 1.1/readme.md",
-    "DE-101 Modules/Module01/DE - 101 Lab 1.1/build_steps_dashboard.md",
     "Users/alex/code/data-engineering/notes/Lab1_1.md",
+    "DE-101 Modules/Module01/DE - 101 Lab 1.1/build_steps_dashboard.md",
     "Users/alex/code/data-engineering/img/выбор визуализации данных.jpg",
     "Users/alex/code/data-engineering/labs/Module01/Без названия.md",
     "DE-101 Modules/Module01/DE - 101 Module01.md",
     "DE-101 Modules%2FModule01%2FDE - 101 Lab 1.1%2FSampleSuperstore.xls.md",
-    "SampleSuperstore.xls.md",
-    "Users/alex/code/data-engineering/notes/1.1.md",
-    "DE-101.md"
+    "SampleSuperstore.xls.md"
   ]
 }

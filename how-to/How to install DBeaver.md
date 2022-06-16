@@ -39,7 +39,7 @@ https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe<br>
 ## Installation
 
 Перейти по ссылке<br>
-https://dbeaver.io/files/dbeaver-ce-latest-macos.dmg<br>
+https://dbeaver.io/files/dbeaver-ce-latest-macos.dmg<br> ^df2225
 
 <ol>
 <li>Запустить исполняемый файл.</li><br>
@@ -53,3 +53,11 @@ https://dbeaver.io/files/dbeaver-ce-latest-macos.dmg<br>
 <li>Выбрать тип нового соединения PostgreSQL Нажать Далее</li><br>
 <li>В поле аутентификация ввести пароль суперпользователя Базы данных Нажать Готово</li><br>
 </ol>
+## Моя последовательность шагов
+- скачал файл по ссылке [[#^df2225]]
+- запустил файл, перенес в Applications
+- Запустил DBeaver![[Pasted image 20220616222355.png]]
+- В первом окне ответил Нет![[Pasted image 20220616224030.png]]
+- далее выбрал PostgreSQL
+- сразу появилось окно на скачивание дарайвера - нажал "скачать"
+- далее очевидные вещи по установке до окончательного результата![[Pasted image 20220616224315.png]]
