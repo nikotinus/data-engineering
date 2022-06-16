@@ -118,16 +118,39 @@
 		from public.orders o
 		--286397.02
 		```
-	-   Profit Ratio = `12.47`
+	-   Profit Ratio = `12.47%`
 		```sql
-			select
-				round(sum(o.profit) / sum(o.sales) * 100, 2)
-			from public.orders o 
-			-- 12.47
+		select
+			round(sum(o.profit) / sum(o.sales) * 100, 2)
+		from public.orders o 
+		-- 12.47
 		```
-	-   Profit per Order
-	-   Sales per Customer
-	-   Avg. Discount
+	-   Profit per Order = `57.18`
+		```sql
+		select 
+			count(distinct o.order_id)
+			, sum(o.sales)
+			, sum(o.profit)
+			, round(sum(o.profit)/count(distinct o.order_id), 2)
+		from public.orders o 
+		-- 57.18
+		```
+	-   Sales per Customer = `2896.85`
+		```sql
+		select 
+			sum(o.sales)
+			, count(distinct o.customer_id)
+			, round(sum(o.sales) / count(distinct o.customer_id),2)
+		from public.orders o ;
+		-- 2896.85
+		```
+	-   Avg. Discount = `15.62%`
+		```sql
+		select 
+			round(avg(o.discount) * 100, 2)
+		from public.orders o ;
+		--15.62
+		```
 	-   Monthly Sales by Segment ( табличка и график)
 	-   Monthly Sales by Product Category (табличка и график)
 	
