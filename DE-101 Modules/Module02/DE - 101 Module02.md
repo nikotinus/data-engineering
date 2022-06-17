@@ -152,7 +152,29 @@
 		--15.62
 		```
 	-   Monthly Sales by Segment ( табличка и график)
+		```sql
+		select 
+			distinct date_trunc('month', o.order_date) as "month"
+			, o.segment
+			, sum(o.sales) as sales 
+		from public.orders o
+		group by
+			distinct date_trunc('month', o.order_date)
+			, o.segment
+		order by 1, 2
+		```
 	-   Monthly Sales by Product Category (табличка и график)
+		```sql
+		select 
+			distinct date_trunc('month', o.order_date) as "month"
+			, o.category 
+			, sum(o.sales) as sales 
+		from public.orders o
+		group by
+			distinct date_trunc('month', o.order_date)
+			, o.category 
+		order by 1, 2
+		```
 	
 	2.  Product Dashboard (Продуктовые метрики)
 	
